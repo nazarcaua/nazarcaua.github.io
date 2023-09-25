@@ -23,12 +23,12 @@ p {
 }
 
 table {
-	    border:1px solid;
-		border-collapse:collapse;
+	border:1px solid;
+	border-collapse:collapse;
 }
 
 table td {
-		border:1px solid;
-		text-align:center;
-		padding:5px;
+	border:1px solid;
+	text-align:center;
+	padding:5px;
 }
