@@ -71,3 +71,17 @@ table td {
 	background: lightgray;
 	color: white;
 }
+table thead {
+	border:1px solid;
+        text-align:left;
+	padding:5px;
+	background: gray;
+	color: white;
+		}
+table tdata {
+	border:1px solid;
+	text-align:center;
+	padding:5px;
+	background: lightgray;
+	color: white;
+}
