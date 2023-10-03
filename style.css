@@ -85,3 +85,11 @@ table tdata {
 	background: lightgray;
 	color: white;
 }
+
+table tbody {
+	border:1px solid;
+        text-align:left;
+	padding:5px;
+	background: gray;
+	color: white;
+		}
