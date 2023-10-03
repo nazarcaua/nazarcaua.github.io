@@ -14,11 +14,22 @@
 <ul>
 <li>My name is Nazarii Goncharuk</li>
 <li>This is my student ID: 000367506</li>
-<li>The current date and time is: <div id="current_date">
-    <script>
-        document.getElementById("current_date").innerHTML = Date();
-    </script>
-</div></li>
+<li>The current date and time is: 
+<script type="text/javascript"> 
+function display_c(){
+var refresh=1000; // Refresh rate in milli seconds
+mytime=setTimeout('display_ct()',refresh)
+}
+
+function display_ct() {
+var x = new Date()
+document.getElementById('ct').innerHTML = x;
+display_c();
+ }
+</script>
+<body onload=display_ct();>
+<span id='ct' ></span>
+</li>
 </ul>
 
 
