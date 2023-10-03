@@ -21,16 +21,50 @@ h3 {
 p {
   color: white;
 }
-
-table {
-	border:1px solid;
-	border-color: white;
-	border-collapse:collapse;
+body {
+    background-color: black;
 }
 
+h1 {
+  color: white;
+}
+
+ul {
+    color: white;
+}
+
+li {
+	color: white;
+}
+
+h3 {
+	color: white;
+}
+
+p {
+	color: white;
+}
+
+caption {
+	color: white;
+}
+
+table {
+	border:1px solid #ffffff;
+	border-collapse:collapse;
+	padding:5px;
+		}
+table th {
+	border:1px solid #ffffff;
+        text-align:left;
+	padding:5px;
+	background: #404040;
+	color: #ffffff;
+		}
 table td {
-	border:1px solid;
-	border-color: white;
+	border:1px solid #ffffff;
 	text-align:center;
 	padding:5px;
+	background: #7a7a7a;
+	color: #ffffff;
 }
