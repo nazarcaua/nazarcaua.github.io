@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>CSS Grid starting point</title>
+    <style>
+      body {
+        width: 100%;
+        max-width: 500px;
+        margin: 2em auto;
+        font: .9em/1.2 Arial, Helvetica, sans-serif;
+      }
+    </style>
+  </head>
+
+  <body>
+  
+    <div class="container">
+        <div class="div1"> </div>
+        <div class="div2"><div class="div2a"><div class="div2b"></div></div></div>
+        <div class="div3"><div class="div3a"></div>
+        <div class="div3b"></div></div>
+        <div class="div4"> </div>
+    </div>
+  </body>
+
+</html>
